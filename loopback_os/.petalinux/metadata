@@ -1,0 +1,5 @@
+PETALINUX_VER=2026.1
+VALIDATE_HW_CHKSUM=1
+HARDWARE_PATH=/home/adam-lorenz/Main/Petalinux_Projects/loopback_os/loopbackv1.0.xsa
+HDF_EXT=xsa
+YOCTO_SDK=1a01c742ec2a9d3d74fbb80f02752ea30a84efa92513d7a9a71eebb4c5301d32
