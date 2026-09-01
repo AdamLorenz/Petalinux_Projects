@@ -2513,13 +2513,13 @@ CONFIG_packagegroup-core-boot=y
 #
 # packagegroup-self-hosted 
 #
-# CONFIG_packagegroup-self-hosted is not set
+CONFIG_packagegroup-self-hosted=y
 # CONFIG_packagegroup-self-hosted-extended-dev is not set
 # CONFIG_packagegroup-self-hosted-debug-dev is not set
-# CONFIG_packagegroup-self-hosted-dev is not set
+CONFIG_packagegroup-self-hosted-dev=y
 # CONFIG_packagegroup-self-hosted-extended-dbg is not set
 # CONFIG_packagegroup-self-hosted-sdk-dev is not set
-# CONFIG_packagegroup-self-hosted-dbg is not set
+CONFIG_packagegroup-self-hosted-dbg=y
 # CONFIG_packagegroup-self-hosted-graphics-dev is not set
 # CONFIG_packagegroup-self-hosted-sdk is not set
 # CONFIG_packagegroup-self-hosted-debug is not set
@@ -3740,8 +3740,8 @@ CONFIG_imagefeature-ssh-server-openssh=y
 CONFIG_imagefeature-hwcodecs=y
 # CONFIG_imagefeature-package-management is not set
 # CONFIG_imagefeature-debug-tweaks is not set
-# CONFIG_imagefeature-empty-root-password is not set
-# CONFIG_imagefeature-serial-autologin-root is not set
+CONFIG_imagefeature-empty-root-password=y
+CONFIG_imagefeature-serial-autologin-root=y
 # CONFIG_Init-manager-systemd is not set
 CONFIG_Init-manager-sysvinit=y
 
