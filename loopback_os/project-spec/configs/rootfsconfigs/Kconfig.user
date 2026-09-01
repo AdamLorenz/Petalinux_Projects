@@ -3,6 +3,10 @@ config gpio-demo
 	 bool "gpio-demo"
 	 help
 	
+config loopback-test  
+	 bool "loopback-test"
+	 help
+	
 config peekpoke  
 	 bool "peekpoke"
 	 help
